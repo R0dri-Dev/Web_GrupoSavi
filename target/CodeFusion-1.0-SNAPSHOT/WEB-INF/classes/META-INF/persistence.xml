@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_2.xsd"
+             version="3.2">
+    <persistence-unit name="dbgruposavi" transaction-type="RESOURCE_LOCAL">
+
+        <class>gruposavi.codefusion.Model.Usuario</class>
+<!--        <class>gruposavi.codefusion.Model.Producto</class>-->
+<!--        <class>gruposavi.codefusion.Model.CategoriaColor</class>-->
+<!--        <class>gruposavi.codefusion.Model.Cliente</class>-->
+<!--        <class>gruposavi.codefusion.Model.Empleado</class>-->
+<!--        <class>gruposavi.codefusion.Model.Pedido</class>-->
+<!--        <class>gruposavi.codefusion.Model.DetallePedido</class>-->
+<!--        <class>gruposavi.codefusion.Model.DetallePedidoId</class>-->
+<!--        <class>gruposavi.codefusion.Model.DetalleServicio</class>-->
+<!--        <class>gruposavi.codefusion.Model.Pedido</class>-->
+<!--        <class>gruposavi.codefusion.Model.Pago</class>-->
+<!--        <class>gruposavi.codefusion.Model.Permiso</class>-->
+<!--        <class>gruposavi.codefusion.Model.Rol</class>-->
+<!--        <class>gruposavi.codefusion.Model.RolPermiso</class>-->
+<!--        <class>gruposavi.codefusion.Model.Documento</class>-->
+<!--        <class>gruposavi.codefusion.Model.Atributo</class>-->
+<!--        <class>gruposavi.codefusion.Model.Servicio</class>-->
+<!--        <class>gruposavi.codefusion.Model.RolPermisoId</class>-->
+<!--        <class>gruposavi.codefusion.Model.Enumeraciones.NombrePermiso</class>-->
+<!--        <class>gruposavi.codefusion.Model.Enumeraciones.MetodoPago</class>-->
+<!--        <class>gruposavi.codefusion.Model.Enumeraciones.Sexo</class>-->
+<!--        <class>gruposavi.codefusion.Model.Enumeraciones.EstadoPago</class>-->
+<!--        <class>gruposavi.codefusion.Model.Enumeraciones.ESTADO</class>-->
+<!--        <class>gruposavi.codefusion.Model.Enumeraciones.TipoCliente</class>-->
+<!--        <class>gruposavi.codefusion.Model.Enumeraciones.Tiposervicio</class>-->
+<!--        <class>gruposavi.codefusion.Model.Enumeraciones.TipoDocumento</class>-->
+
+        <properties>
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/dbgruposavi"/>
+            <property name="jakarta.persistence.jdbc.user" value="root"/>
+            <property name="jakarta.persistence.jdbc.password" value=""/>
+
+
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.use_sql_comments" value="true"/>
+        </properties>
+
+    </persistence-unit>
+</persistence>

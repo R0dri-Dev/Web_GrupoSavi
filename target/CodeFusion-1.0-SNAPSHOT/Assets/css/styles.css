@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+.navbar {
+    background-color: #0C59CF;
+}
+.navbar-brand {
+    color: white;
+}
+.sidebar {
+    background-color: #0C59CF;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+.sidebar a:hover {
+    background-color: #0A47A0;
+}
+.product-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+.product-card h5 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+.product-card .price {
+    color: #0C59CF;
+    font-size: 16px;
+}
